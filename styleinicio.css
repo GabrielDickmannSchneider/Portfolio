@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Ubunto:wght@300,400,500,600,700&display=swap');
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+.contBox
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.card
+{
+  position: relative;
+  width: 320px;
+  height: 480px;
+  background: #0A2239;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+.card .imagem
+{
+  position: relative;
+  overflow: hidden;
+}
+.card .imagem::before
+{
+  content: '';
+  position: absolute;
+  bottom: -180px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, #0D2941 50%, transparent);
+  transition: 0.5s;
+  z-index: 1;
+}
+.card:hover .imagem::before
+{
+  bottom: 0px;
+}
+.card .imagem img
+{
+  width: 120%;
+}
+.card:hover .imagem img
+{
+  transform: translateY(-50px);
+  filter: blur(5px);
+}
+.card .detalhe
+{
+  position: absolute;
+  bottom: -130px;
+  left: 0;
+  padding: 20px;
+  width: 100%;
+  z-index: 2;
+  transition: 0.5s;
+}
+.card:hover .detalhe
+{
+  bottom: 40px;
+}
+.card .detalhe .title
+{
+  max-width: 180px;
+  color: #EAEEFF;
+}
+.card .detalhe h3
+{
+  font-size: 14px;
+  color: #EAEEFF;
+}
+.card .detalhe .info
+{
+  color: #EAEEFF;
+  margin-top: 10px;
+}
