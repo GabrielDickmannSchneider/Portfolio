@@ -28,7 +28,7 @@
   justify-content: center;
   color: #0E282B;
   height: 50%;
-  line-height: 250%;
+  line-height: 150%;
   text-align: center;
   white-space: nowrap;
 }
@@ -37,7 +37,7 @@
   position: relative;
   margin: 0 auto;
   width: 600px;
-  height: 869px;
+  height: 800px;
   background: #091F25;
   border-radius: 20px;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
@@ -48,6 +48,46 @@
   overflow: hidden;
 }
 .atividades .imagem img
+{
+  width: 100%;
+  border-radius: 20px;
+}
+.contBox .atividades1
+{
+  position: relative;
+  margin: 0 auto;
+  width: 600px;
+  height: 860px;
+  background: #091F25;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+.atividades1 .imagem
+{
+  position: relative;
+  overflow: hidden;
+}
+.atividades1 .imagem img
+{
+  width: 100%;
+  border-radius: 20px;
+}
+.contBox .atividadesDeitadas
+{
+  position: relative;
+  margin: 0 auto;
+  width: 600px;
+  height: 405px;
+  background: #091F25;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+.atividadesDeitadas .imagem
+{
+  position: relative;
+  overflow: hidden;
+}
+.atividadesDeitadas .imagem img
 {
   width: 100%;
   border-radius: 20px;
