@@ -46,6 +46,7 @@
 .card .imagem img
 {
   width: 120%;
+  transition: 0.5s;
 }
 .card:hover .imagem img
 {

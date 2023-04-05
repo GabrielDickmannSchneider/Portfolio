@@ -8,11 +8,47 @@
 }
 .contBox
 {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
   justify-content: center;
   align-items: center;
+  height: 90vh;
+}
+.contBox .title
+{
+  display: flex;
+  justify-content: center;
+  color: #0E282B;
+  text-align: center;
+  white-space: nowrap;
+}
+.contBox .nomeAtv
+{
+  display: flex;
+  justify-content: center;
+  color: #0E282B;
+  height: 50%;
+  line-height: 250%;
+  text-align: center;
+  white-space: nowrap;
 }
 .contBox .atividades
 {
-  left: 50%;
+  position: relative;
+  margin: 0 auto;
+  width: 600px;
+  height: 869px;
+  background: #091F25;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+.atividades .imagem
+{
+  position: relative;
+  overflow: hidden;
+}
+.atividades .imagem img
+{
+  width: 100%;
+  border-radius: 20px;
 }
