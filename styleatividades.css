@@ -42,16 +42,6 @@
   border-radius: 20px;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
 }
-.atividades .imagem
-{
-  position: relative;
-  overflow: hidden;
-}
-.atividades .imagem img
-{
-  width: 100%;
-  border-radius: 20px;
-}
 .contBox .atividades1
 {
   position: relative;
@@ -61,16 +51,6 @@
   background: #091F25;
   border-radius: 20px;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
-}
-.atividades1 .imagem
-{
-  position: relative;
-  overflow: hidden;
-}
-.atividades1 .imagem img
-{
-  width: 100%;
-  border-radius: 20px;
 }
 .contBox .atividades2
 {
@@ -82,15 +62,25 @@
   border-radius: 20px;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
 }
-.atividades2 .imagem
+.contBox .atividades3
 {
   position: relative;
-  overflow: hidden;
-}
-.atividades2 .imagem img
-{
-  width: 100%;
+  margin: 10px auto;
+  width: 600px;
+  height: 898px;
+  background: #091F25;
   border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+.contBox .atividades4
+{
+  position: relative;
+  margin: 10px auto;
+  width: 600px;
+  height: 498px;
+  background: #091F25;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
 }
 .contBox .atividadesDeitadas
 {
@@ -102,16 +92,6 @@
   border-radius: 20px;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
 }
-.atividadesDeitadas .imagem
-{
-  position: relative;
-  overflow: hidden;
-}
-.atividadesDeitadas .imagem img
-{
-  width: 100%;
-  border-radius: 20px;
-}
 .contBox .atividadesDeitadas1
 {
   position: relative;
@@ -121,16 +101,6 @@
   background: #091F25;
   border-radius: 20px;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
-}
-.atividadesDeitadas1 .imagem
-{
-  position: relative;
-  overflow: hidden;
-}
-.atividadesDeitadas1 .imagem img
-{
-  width: 100%;
-  border-radius: 20px;
 }
 .contBox .atividadesDeitadas2
 {
@@ -142,16 +112,6 @@
   border-radius: 20px;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
 }
-.atividadesDeitadas2 .imagem
-{
-  position: relative;
-  overflow: hidden;
-}
-.atividadesDeitadas2 .imagem img
-{
-  width: 100%;
-  border-radius: 20px;
-}
 .contBox .atividadesDeitadas3
 {
   position: relative;
@@ -162,12 +122,40 @@
   border-radius: 20px;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
 }
-.atividadesDeitadas3 .imagem
+.contBox .atividadesDeitadas4
+{
+  position: relative;
+  margin: 0 auto;
+  width: 600px;
+  height: 344px;
+  background: #091F25;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+.atividades .imagem,
+.atividades1 .imagem,
+.atividades2 .imagem,
+.atividades3 .imagem,
+.atividades4 .imagem,
+.atividadesDeitadas .imagem,
+.atividadesDeitadas1 .imagem,
+.atividadesDeitadas2 .imagem,
+.atividadesDeitadas3 .imagem,
+.atividadesDeitadas4 .imagem
 {
   position: relative;
   overflow: hidden;
 }
-.atividadesDeitadas3 .imagem img
+.atividades .imagem img,
+.atividades1 .imagem img,
+.atividades2 .imagem img,
+.atividades3 .imagem img,
+.atividades4 .imagem img,
+.atividadesDeitadas .imagem img,
+.atividadesDeitadas1 .imagem img,
+.atividadesDeitadas2 .imagem img,
+.atividadesDeitadas3 .imagem img,
+.atividadesDeitadas4 .imagem img
 {
   width: 100%;
   border-radius: 20px;
