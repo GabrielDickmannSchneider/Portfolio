@@ -12,6 +12,13 @@
   justify-content: center;
   align-items: center;
   height: 90vh;
+  width: 100vw;
+  transition: 0.5s;
+}
+.contBox.active
+{
+  transition: 0.5s;
+  width: 80vw;
 }
 .card
 {

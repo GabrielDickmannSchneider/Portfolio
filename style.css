@@ -26,7 +26,7 @@ body
 .navigation
 {
   position: fixed;
-  width: 300px;
+  width: 80px;
   height: 100%;
   background: var(--green);
   border-left: 10px solid var(--green);
@@ -35,7 +35,7 @@ body
 }
 .navigation.active
 {
-  width: 80px;
+  width: 300px;
 }
 .navigation ul
 {
@@ -141,7 +141,7 @@ body
 {
   position: absolute;
   width: calc(100% - 300px);
-  left: 300px;
+  left: 80px;
   min-height: 100vh;
   background: var(--white);
   transition: 0.5s;
@@ -149,7 +149,7 @@ body
 .main.active
 {
   width: calc(100% - 80px);
-  left: 80px;
+  left: 300px;
 }
 .topbar
 {
