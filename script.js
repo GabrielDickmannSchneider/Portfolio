@@ -10,10 +10,12 @@ window.onscroll = function() {
 let toggle = document.querySelector('.toggle');
 let navigation = document.querySelector('.navigation');
 let main = document.querySelector('.main');
+let contBox = document.querySelector('.contBox');
 
 toggle.onclick = function() {
   navigation.classList.toggle('active');
   main.classList.toggle('active');
+  contBox.classList.toggle('active');
 }
 
 let list = document.querySelectorAll('.navigation li');
