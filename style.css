@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Ubunto:wght@300,400,500,600,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+} 
+:root {
+  --green: #091F25;
+  --white: #EAEEFF;
+  --green2: #0E282B;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.5rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+}
+
+/* Style mobile */
+
+@media (max-width: 484px) {
+  /* Navbar style */
+  .navbar {
+    padding: 0;
+    width: 100%;
+    border-radius: 3rem 3rem 0 0;
+    position: fixed; 
+    bottom: 0;
+    z-index: 10;
+  }
+  .navbar > .container-fluid{
+    justify-content: center;
+  }
+  .container-fluid {
+    background-color: var(--green);
+    border-radius: 3rem 3rem 0 0;
+  }
+  .container-fluid ul li .icon {
+    position: relative;
+    display: block;
+    line-height: 0rem;
+    font-size: 3.5rem;
+    transition: 0.5s;
+    color: var(--white);
+    text-align: center;
+  }
+  .container-fluid ul li.active .icon {
+    color: var(--green);
+    transform: translateY(-2rem);
+  }
+  .container-fluid ul li .text {
+    color: var(--white);
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateY(2rem);
+  }
+  .container-fluid ul li.active .text {
+    opacity: 1;
+    transform: translateY(1rem);
+  }
+  .nav-item {
+    position: relative;
+  }
+  .nav-item::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .nav-item.active::before {
+    opacity: 1;
+    border: 0.6rem solid var(--white);
+  }
+  .nav-item.home.active::before {
+    background: #FFC7C7;
+  }
+  .nav-item.projects.active::before {
+    background: #E0C8FF;
+  }
+  .nav-item.school.active::before {
+    background: #C8CDFF;
+  }
+  /* Conteudo do home page */
+  .content {
+    display: none;
+  }
+  .active {
+    display: block;
+  }
+  .card {
+    position: relative;
+    z-index: 5;
+  }
+  .face-front.active,
+  .face-back:not(.active) {
+    display: none;
+  }
+  .face-front:not(.active),
+  .face-back.active {
+    display: block;
+  }
+}
+
+/* Style tablet */
+
+@media (min-width: 485px) {
+  /* Navbar style */
+  .navbar {
+    position: fixed;
+    top: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .navbar > .container-fluid {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--green);
+  }
+  .container-fluid ul li .icon {
+    display: none;
+  }
+  .container-fluid ul li .text {
+    color: var(--white);
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    transition: 0.5s;
+    transform: translateY(2rem);
+  }
+  .nav-item {
+    position: relative;
+  }
+  .nav-item::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8rem;
+    border-radius: 10%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .nav-item.active::before {
+    opacity: 1;
+    border: 0.3rem solid var(--white);
+  }
+  /* Conteudo do home page */
+  .content {
+    display: none;
+  }
+  .home-content.active {
+    display: block;
+    margin-top: 6rem;
+  }
+  .face-front.active,
+  .face-back:not(.active) {
+    display: none;
+  }
+  .face-front:not(.active),
+  .face-back.active {
+    display: block;
+  }
+  /* Conteudo do school page */
+  .dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: 0;
+    margin-top: 20%;
+    margin-left: -65%;
+    padding: 1rem;
+    z-index: 10;
+  }
+  .school-content.active {
+    display: block;
+    margin-top: 6rem;
+  }
+  .content-linguagens,
+  .content-matematica,
+  .content-humanas,
+  .content-natureza,
+  .content-ds {
+    display: none;
+  }
+  .content-linguagens.active,
+  .content-matematica.active,
+  .content-humanas.active,
+  .content-natureza.active,
+  .content-ds .active {
+    display: block;
+  }
+  .atv {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    margin-bottom: 2rem;
+  }
+}

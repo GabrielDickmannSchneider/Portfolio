@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Portfolio</title>
+</head>
+<body>
+  <nav class="navbar bg-body-tertiary" id="navbar">
+    <div class="container-fluid" id="container">
+      <ul class="nav mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item home active" role="presentation">
+          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+            <span class="icon">
+              <ion-icon name="home-outline"></ion-icon>
+            </span>
+            <span class="text">Home</span>
+          </button>
+        </li>
+        <li class="nav-item projects" role="presentation">
+          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+            <span class="icon">
+              <ion-icon name="code-outline"></ion-icon>
+            </span>
+            <span class="text">Projects</span>
+          </button>
+        </li>
+        <li class="nav-item school dropdown" role="presentation">
+          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="dropdown" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+            <span class="icon">
+              <ion-icon name="school-outline"></ion-icon>
+            </span>
+            <span class="text">School</span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item-linguagens active" data-target="content-linguagens">Linguagens</a></li>
+            <li><a class="dropdown-item-matematica" data-target="content-matematica">Matemática</a></li>
+            <li><a class="dropdown-item-humanas" data-target="content-humanas">Ciências Humanas</a></li>
+            <li><a class="dropdown-item-natureza" data-target="content-natureza">Ciências da Natureza</a></li>
+            <li><a class="dropdown-item-ds" data-target="content-ds">Desenvolvimento</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="content home-content active">
+    <div class="card-wrapper">
+      <div id="card-1" class="card card-rotating text-center">
+        <div class="face-front">
+          <div class="card-up">
+            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo7.webp" alt="Image with a photo of clouds.">
+          </div>
+          <div class="avatar mx-auto white"><img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).webp" class="rounded-circle"
+              alt="Sample avatar image.">
+          </div>
+          <div class="card-body">
+            <h4 class="font-weight-bold mb-3">Gabriel Dickmann Schneider</h4>
+            <p class="font-weight-bold blue-text">Estudante do 3º ano do Ensino Médio</p>
+            <a class="rotate-btn" data-card="card-1"><i class="fas fa-redo-alt"></i> Click here to rotate</a>
+          </div>
+        </div>
+        <div class="face-back">
+          <div class="card-body">
+            <h4 class="font-weight-bold mb-0">About me</h4>
+            <hr>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur odio suscipit non commodi vel
+              eius veniam maxime?
+              <hr>
+              <ul class="list-inline py-2">
+                <li class="list-inline-item"><a class="p-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="list-inline-item"><a class="p-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a class="p-2 fa-lg gplus-ic"><i class="fab fa-google-plus-g"></i></a></li>
+                <li class="list-inline-item"><a class="p-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+              <a class="rotate-btn" data-card="card-1"><i class="fas fa-undo"></i> Click here to rotate back</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="content projects-content">
+    
+  </div>
+  <div class="content school-content">
+    <div class="content-linguagens active">
+      <div class="section-container">
+        <section class="atv section-preview">
+          <div class="row mx-1">
+            <div class="col-md-12 mb-4">
+              <div class="card card-cascade wider reverse">
+                <div class="view view-cascade overlay">
+                  <img class="card-img-top" src="img/lin/At1linguagens.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body card-body-cascade text-center">
+                  <h4 class="card-title">
+                    <strong>1- Redação: Mobilidade urbana </strong>
+                  </h4>
+                  <h6 class="font-weight-bold indigo-text py-2">1º Trimestre</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="atv section-preview">
+          <div class="row mx-1">
+            <div class="col-md-12 mb-4">
+              <div class="card card-cascade wider reverse">
+                <div class="view view-cascade overlay">
+                  <img class="card-img-top" src="img/lin/At2linguagens.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body card-body-cascade text-center">
+                  <h4 class="card-title">
+                    <strong>2- Mapas conceituais capítulos  02 e 03</strong>
+                  </h4>
+                  <h6 class="font-weight-bold indigo-text py-2">1º Trimestre</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="atv section-preview">
+          <div class="row mx-1">
+            <div class="col-md-12 mb-4">
+              <div class="card card-cascade wider reverse">
+                <div class="view view-cascade overlay">
+                  <img class="card-img-top" src="img/lin/At3linguagens.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body card-body-cascade text-center">
+                  <h4 class="card-title">
+                    <strong>3- Verb Tense Review</strong>
+                  </h4>
+                  <h6 class="font-weight-bold indigo-text py-2">1º Trimestre</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="atv section-preview">
+          <div class="row mx-1">
+            <div class="col-md-12 mb-4">
+              <div class="card card-cascade wider reverse">
+                <div class="view view-cascade overlay">
+                  <img class="card-img-top" src="img/lin/At4linguagens.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body card-body-cascade text-center">
+                  <h4 class="card-title">
+                    <strong>Atividade Are you a digital Citizen?</strong>
+                  </h4>
+                  <h6 class="font-weight-bold indigo-text py-2">1º Trimestre</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="atv section-preview">
+          <div class="row mx-1">
+            <div class="col-md-12 mb-4">
+              <div class="card card-cascade wider reverse">
+                <div class="view view-cascade overlay">
+                  <img class="card-img-top" src="img/lin/professores linguagens.jpeg" alt="Card image cap">
+                </div>
+                <div class="card-body card-body-cascade text-center">
+                  <h4 class="card-title">
+                    <strong>4- Feira Científica- Foto e Resumo</strong>
+                  </h4>
+                  <h6 class="font-weight-bold indigo-text py-2">2º Trimestre</h6>
+                  <p class="card-text">
+                    Alimentos saudáveis e música em inglês, foi tudo que a gente viu na parte de linguagens na feira.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>         
+    <div class="content-matematica">
+      <div class="section-container">
+        <div id="carouselExampleIndicators1" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <section class="atv section-preview">
+                <div class="row mx-1">
+                  <div class="col-md-12 mb-4">
+                    <div class="card card-cascade wider reverse">
+                      <div class="view view-cascade overlay">
+                        <img class="card-img-top" src="img/mat/At1matematica.jpg" alt="Card image cap">
+                      </div>
+                      <div class="card-body card-body-cascade text-center">
+                        <h4 class="card-title">
+                          <strong>1.Lista 01 de exercícios de Revisão sobre porcentagem e regra de três. (lista entregue e realizada na primeira semana de aula)</strong>
+                        </h4>
+                        <h6 class="font-weight-bold indigo-text py-2">1º Trimestre</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="carousel-item">
+              <section class="atv section-preview">
+                <div class="row mx-1">
+                  <div class="col-md-12 mb-4">
+                    <div class="card card-cascade wider reverse">
+                      <div class="view view-cascade overlay">
+                        <img class="card-img-top" src="img/mat/At1_2matematica.jpg" alt="Card image cap">
+                      </div>
+                      <div class="card-body card-body-cascade text-center">
+                        <h4 class="card-title">
+                          <strong>1.Lista 01 de exercícios de Revisão sobre porcentagem e regra de três. (lista entregue e realizada na primeira semana de aula)</strong>
+                        </h4>
+                        <h6 class="font-weight-bold indigo-text py-2">1º Trimestre</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <section class="atv section-preview">
+          <div class="row mx-1">
+            <div class="col-md-12 mb-4">
+              <div class="card card-cascade wider reverse">
+                <div class="view view-cascade overlay">
+                  <img class="card-img-top" src="img/mat/At2matematica.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body card-body-cascade text-center">
+                  <h4 class="card-title">
+                    <strong>2. Resumo sobre Matemática Financeira e sua importância nas nossas vidas</strong>
+                  </h4>
+                  <h6 class="font-weight-bold indigo-text py-2">1º Trimestre</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="atv section-preview">
+          <div class="row mx-1">
+            <div class="col-md-12 mb-4">
+              <div class="card card-cascade wider reverse">
+                <div class="view view-cascade overlay">
+                  <video class="card-img-top" width="600" height="405" poster="img/mat/At3imagem_matematica.jpg" controls alt="Card image cap">
+                    <source src="video/Podcast de matemática.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="card-body card-body-cascade text-center">
+                  <h4 class="card-title">
+                    <strong>3. Trabalho Matemática Financeira/ Impostos brasileiros.</strong>
+                  </h4>
+                  <h6 class="font-weight-bold indigo-text py-2">1º Trimestre</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="atv section-preview">
+          <div class="row mx-1">
+            <div class="col-md-12 mb-4">
+              <div class="card card-cascade wider reverse">
+                <div class="view view-cascade overlay">
+                  <img class="card-img-top" src="img/mat/Luis.jpeg" alt="Card image cap">
+                </div>
+                <div class="card-body card-body-cascade text-center">
+                  <h4 class="card-title">
+                    <strong>4- Feira Científica- Foto e Resumo</strong>
+                  </h4>
+                  <h6 class="font-weight-bold indigo-text py-2">2º Trimestre</h6>
+                  <p class="card-text">
+                    Como calcular tudo nas figura e juntar isso com a tecnologia, foi tudo que a gente viu na parte de matemática na feira.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    
+    <div class="content-humanas">
+      <div class="section-container">
+        <div id="carouselExampleIndicators2" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <section class="atv section-preview">
+                <div class="row mx-1">
+                  <div class="col-md-12 mb-4">
+                    <div class="card card-cascade wider reverse">
+                      <div class="view view-cascade overlay">
+                        <img class="card-img-top" src="img/ch/Industrialização brasileira.jpg" alt="Card image cap">
+                      </div>
+                      <div class="card-body card-body-cascade text-center">
+                        <h4 class="card-title">
+                          <strong>1- Mapa conceitual dos capitulos 2 e 3 do Geekie One</strong>
+                        </h4>
+                        <h6 class="font-weight-bold indigo-text py-2">1º Trimestre</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="carousel-item">
+              <section class="atv section-preview">
+                <div class="row mx-1">
+                  <div class="col-md-12 mb-4">
+                    <div class="card card-cascade wider reverse">
+                      <div class="view view-cascade overlay">
+                        <img class="card-img-top" src="img/ch/Industrialização no Brasil.jpg" alt="Card image cap">
+                      </div>
+                      <div class="card-body card-body-cascade text-center">
+                        <h4 class="card-title">
+                          <strong>1- Mapa conceitual dos capitulos 2 e 3 do Geekie One</strong>
+                        </h4>
+                        <h6 class="font-weight-bold indigo-text py-2">1º Trimestre</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <section class="atv section-preview">
+          <div class="row mx-1">
+            <div class="col-md-12 mb-4">
+              <div class="card card-cascade wider reverse">
+                <div class="view view-cascade overlay">
+                  <video class="card-img-top" width="600" height="405" poster="img/ch/Chernobyl.jpg" controls alt="Card image cap">
+                    <source src="video/Chernobl.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="card-body card-body-cascade text-center">
+                  <h4 class="card-title">
+                    <strong>2- Slides, vídeo ou fotos das apresentações do professor Kazim</strong>
+                  </h4>
+                  <h6 class="font-weight-bold indigo-text py-2">1º Trimestre</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="atv section-preview">
+          <div class="row mx-1">
+            <div class="col-md-12 mb-4">
+              <div class="card card-cascade wider reverse">
+                <div class="view view-cascade overlay">
+                  <video class="card-img-top" width="600" height="405" controls alt="Card image cap">
+                    <source src="video/bozonaro.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="card-body card-body-cascade text-center">
+                  <h4 class="card-title">
+                    <strong>1- Vídeos - Telejornal</strong>
+                  </h4>
+                  <h6 class="font-weight-bold indigo-text py-2">2º Trimestre</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div id="carouselExampleIndicators4" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <section class="atv section-preview">
+                <div class="row mx-1">
+                  <div class="col-md-12 mb-4">
+                    <div class="card card-cascade wider reverse">
+                      <div class="view view-cascade overlay">
+                        <img class="card-img-top" src="img/ch/Ana.jpeg" alt="Card image cap">
+                      </div>
+                      <div class="card-body card-body-cascade text-center">
+                        <h4 class="card-title">
+                          <strong>4- Feira Científica- Foto e Resumo</strong>
+                        </h4>
+                        <h6 class="font-weight-bold indigo-text py-2">2º Trimestre</h6>
+                        <p class="card-text">
+                          Tipos de relevo, arte rupestre e tipos de pedras preciosas, foi tudo que a gente viu na parte de ciências humanas na feira.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="carousel-item">
+              <section class="atv section-preview">
+                <div class="row mx-1">
+                  <div class="col-md-12 mb-4">
+                    <div class="card card-cascade wider reverse">
+                      <div class="view view-cascade overlay">
+                        <img class="card-img-top" src="img/ch/Tairine.jpeg" alt="Card image cap">
+                      </div>
+                      <div class="card-body card-body-cascade text-center">
+                        <h4 class="card-title">
+                          <strong>4- Feira Científica- Foto e Resumo</strong>
+                        </h4>
+                        <h6 class="font-weight-bold indigo-text py-2">2º Trimestre</h6>
+                        <p class="card-text">
+                          Tipos de relevo, arte rupestre e tipos de pedras preciosas, foi tudo que a gente viu na parte de ciências humanas na feira.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-natureza">
+      <div class="section-container">
+        <section class="atv section-preview">
+          <div class="row mx-1">
+            <div class="col-md-12 mb-4">
+              <div class="card card-cascade wider reverse">
+                <div class="view view-cascade overlay">
+                  <img class="card-img-top" src="img/cn/At1cn.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body card-body-cascade text-center">
+                  <h4 class="card-title">
+                    <strong>1- Exercícios Representação dos Compostos Orgânicos</strong>
+                  </h4>
+                  <h6 class="font-weight-bold indigo-text py-2">1º Trimestre</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div id="carouselExampleIndicators3" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <section class="atv section-preview">
+                <div class="row mx-1">
+                  <div class="col-md-12 mb-4">
+                    <div class="card card-cascade wider reverse">
+                      <div class="view view-cascade overlay">
+                        <img class="card-img-top" src="img/cn/At2_1cn.jpg" alt="Card image cap">
+                      </div>
+                      <div class="card-body card-body-cascade text-center">
+                        <h4 class="card-title">
+                          <strong>2- Experiência Eletrostática</strong>
+                        </h4>
+                        <h6 class="font-weight-bold indigo-text py-2">1º Trimestre</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="carousel-item">
+              <section class="atv section-preview">
+                <div class="row mx-1">
+                  <div class="col-md-12 mb-4">
+                    <div class="card card-cascade wider reverse">
+                      <div class="view view-cascade overlay">
+                        <img class="card-img-top" src="img/cn/At2_2cn.jpg" alt="Card image cap">
+                      </div>
+                      <div class="card-body card-body-cascade text-center">
+                        <h4 class="card-title">
+                          <strong>2- Experiência Eletrostática</strong>
+                        </h4>
+                        <h6 class="font-weight-bold indigo-text py-2">1º Trimestre</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <section class="atv section-preview">
+          <div class="row mx-1">
+            <div class="col-md-12 mb-4">
+              <div class="card card-cascade wider reverse">
+                <div class="view view-cascade overlay">
+                  <img class="card-img-top" src="img/cn/At3cn.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body card-body-cascade text-center">
+                  <h4 class="card-title">
+                    <strong>3- Rascunho árvore genealógica</strong>
+                  </h4>
+                  <h6 class="font-weight-bold indigo-text py-2">1º Trimestre</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="atv section-preview">
+          <div class="row mx-1">
+            <div class="col-md-12 mb-4">
+              <div class="card card-cascade wider reverse">
+                <div class="view view-cascade overlay">
+                  <img class="card-img-top" src="img/cn/At4cn.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body card-body-cascade text-center">
+                  <h4 class="card-title">
+                    <strong>Avaliação Horácio</strong>
+                  </h4>
+                  <h6 class="font-weight-bold indigo-text py-2">1º Trimestre</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    </div>
+    <div class="content-ds">
+      <div class="section-container">
+        <section class="atv section-preview">
+          <div class="row mx-1">
+            <div class="col-md-12 mb-4">
+              <div class="card card-cascade wider reverse">
+                <div class="view view-cascade overlay">
+                  <img class="card-img-top" src="img/mat/At1matematica.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body card-body-cascade text-center">
+                  <h4 class="card-title">
+                    <strong>1.Lista 01 de exercícios de Revisão sobre porcentagem e regra de três. (lista entregue e realizada na primeira semana de aula)</strong>
+                  </h4>
+                  <h6 class="font-weight-bold indigo-text py-2">1º Trimestre</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
