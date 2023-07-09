@@ -197,7 +197,7 @@ body {
   .content-matematica.active,
   .content-humanas.active,
   .content-natureza.active,
-  .content-ds .active {
+  .content-ds.active {
     display: block;
   }
   .atv {
