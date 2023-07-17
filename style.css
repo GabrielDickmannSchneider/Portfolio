@@ -208,7 +208,6 @@ body {
     z-index: -1;
     margin-bottom: 2rem;
   }
-
   .atv-video {
     position: relative;
     left: 0;
@@ -216,11 +215,5 @@ body {
     height: 100%;
     z-index: 1;
     margin-bottom: 2rem;
-  }
-
-
-  .video-slide {
-    position: relative;
-    z-index: 1;
   }
 }
