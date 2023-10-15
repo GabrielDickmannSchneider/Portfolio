@@ -20,6 +20,11 @@ body {
   align-items: center;
   background-color: var(--white);
 }
+.section-title {
+  text-align: center;
+  font-size: 3rem;
+  margin: 3rem 3rem 3rem 3rem;
+}
 
 /* Style mobile */
 
