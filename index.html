@@ -3,34 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO BÁSICO -->
+    <title>Gabriel Dickmann Schneider - Desenvolvedor Full-Stack | Portfólio</title>
+    <meta name="description" content="Portfólio de Gabriel Dickmann Schneider, desenvolvedor full-stack especializado em criar soluções web inovadoras. Veja meus projetos e entre em contato.">
+    <meta name="keywords" content="desenvolvedor, full-stack, web development, programação, JavaScript, HTML, CSS, Blumenau, Santa Catarina">
+    <meta name="author" content="Gabriel Dickmann Schneider">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="pt-BR">
+    
+    <!-- SEO LOCAL -->
+    <meta name="geo.region" content="BR-SC">
+    <meta name="geo.placename" content="Blumenau">
+    <meta name="geo.position" content="-26.9194;-49.0661">
+    <meta name="ICBM" content="-26.9194, -49.0661">
+    
+    <!-- OPEN GRAPH (Facebook, WhatsApp, etc.) -->
+    <meta property="og:title" content="Gabriel Dickmann Schneider - Desenvolvedor Full-Stack">
+    <meta property="og:description" content="Portfólio de desenvolvedor full-stack com projetos inovadores e soluções web personalizadas.">
+    <meta property="og:image" content="https://seudominio.com/images/og-image.jpg">
+    <meta property="og:url" content="https://seudominio.com">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Gabriel Dickmann Schneider - Portfólio">
+    
+    <!-- TWITTER CARDS -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Gabriel Dickmann Schneider - Desenvolvedor Full-Stack">
+    <meta name="twitter:description" content="Portfólio de desenvolvedor full-stack com projetos inovadores e soluções web personalizadas.">
+    <meta name="twitter:image" content="https://seudominio.com/images/og-image.jpg">
+    
+    <!-- LINKS CANÔNICOS -->
+    <link rel="canonical" href="https://seudominio.com/">
+    
+    <!-- FAVICON -->
     <link rel="icon" href="images/logo.png" type="image/png">
+    <link rel="apple-touch-icon" href="images/logo.png">
+    
+    <!-- PRECONNECT para otimização -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- STYLESHEETS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <title>Portfólio</title>
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
-    crossorigin="anonymous"></script>
+    
+    <!-- STRUCTURED DATA (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gabriel Dickmann Schneider",
+        "jobTitle": "Desenvolvedor Full-Stack",
+        "description": "Desenvolvedor full-stack especializado em criar soluções web inovadoras",
+        "url": "https://seudominio.com",
+        "image": "https://seudominio.com/images/pessoal.jpg",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Blumenau",
+            "addressRegion": "SC",
+            "addressCountry": "BR"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+55-47-98409-3703",
+            "contactType": "professional",
+            "email": "schneiderdickmanngabriel@email.com"
+        },
+        "sameAs": [
+            "https://github.com/GabrielDickmannSchneider",
+            "https://www.instagram.com/gdschneider_0608/",
+            "https://www.linkedin.com/in/gabriel-dickmann-schneider-3b64ab227/"
+        ]
+    }
+    </script>
+    
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+        crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </head>
 <body>
-    <nav>
-        <ul class="menu">
-            <li class="logo"><a href="index.html">
-                <img src="images/logo.png">
-            </a></li>
-            <li class="item"><a href="index.html">Início</a></li>
-            <li class="item"><a href="sobre.html">Sobre mim</a></li>
-            <li class="item"><a href="projetos.html">Projetos</a></li>
-            <li class="item"><a href="contato.html">Contato</a></li>
-            </li>
-            <li class="toggle"><span class="bars"></span></li>
-        </ul>   
-    </nav>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="logo"><a href="index.html">
+                    <img src="images/logo.png" alt="Logo do portfólio de Gabriel Dickmann Schneider">
+                </a></li>
+                <li class="item"><a href="index.html">Início</a></li>
+                <li class="item"><a href="sobre.html">Sobre mim</a></li>
+                <li class="item"><a href="projetos.html">Projetos</a></li>
+                <li class="item"><a href="contato.html">Contato</a></li>
+                </li>
+                <li class="toggle"><span class="bars"></span></li>
+            </ul>   
+        </nav>
+    </header>
 
     <div class="blog-personal">
         <div class="blog-personal-img">
-            <img src="images/pessoal.jpg">
+            <img src="images/pessoal.jpg" alt="Gabriel Dickmann Schneider - Desenvolvedor Full-Stack">
         </div>
         <div class="blog-personal-content">
             <span class="blog-personal-content-date">Desenvolvedor Full-Stack</span>
@@ -44,7 +117,7 @@
 
     <div class="blog-personal">
         <div class="blog-personal-img"> 
-            <img src="images/icon-code.png">
+            <img src="images/icon-code.png" alt="Ícone de programação representando projetos de desenvolvimento">
         </div>
         <div class="blog-personal-content">
             <h2 class="blog-personal-content-title">Projetos</h2>
